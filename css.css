@@ -2,23 +2,23 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #7e86a4;
+    font-family:Arial, sans-serif;
 }
 .header{
-    background-color: #8455f4;
-    color: #FFF !important;
+    background-color: #673ab7;
+    color: #FFF;
     height: 150px;
 }
-.menu{
-    padding: 20px;
-}
 .menu h2{
-    color: #FFF;
+    padding: 20px;
+    color: #fef;
+}
+h1, h2,h3,h4,h5,h6{
+    color: #333;
 }
 .container-form{
     height: 1150px;
-    background-color: #ced0d2;
+    background-color: #f0ebf8;
     position: relative;
 }
 .container{
@@ -30,16 +30,21 @@
     margin-left: 200px;
 }
 .head-form{
-    text-align: center;
-    padding: 3px 0;
-    border-bottom: 1px solid;
-    border-color: rgba(132, 85, 244,0.5);
-    }
-.head-form h4{
-    color: #8455f4;
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
 }
-
-
+.aux{
+    width: 30%;
+    margin: 0 auto;
+}
+.head-form h3{
+    text-align: center;
+    width: 100px;
+    padding: 3px 0;
+    border-bottom: 2px solid #673ab7;
+    color: #673ab7;
+    line-height: 37px;
+    }
 .head-form h4{
     font-weight: normal;
 }
@@ -54,6 +59,7 @@
     flex-direction: column;
     width: 280px;
     padding: 9px 0;
+    color: #444;
 }
 .labels input,
 .labels textarea{
@@ -61,7 +67,7 @@
     outline: none;
     border: 1px transparent;
     margin: 8px 0;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.5);
+    border-bottom: 1px solid #CCC;
     padding-bottom: 5px;
     }
 .labels textarea{height: 55px;}
